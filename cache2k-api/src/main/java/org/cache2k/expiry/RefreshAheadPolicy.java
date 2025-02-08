@@ -50,7 +50,7 @@ public interface RefreshAheadPolicy<K, V, T> extends DataAware<K, V> {
 
     @Override
     public int requiredHits(Context<Object> ctx) {
-      return 1;
+      return 0;
     }
 
   };
